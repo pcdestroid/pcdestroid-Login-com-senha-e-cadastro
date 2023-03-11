@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website - Log in and register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <span class="icon-menu"><ion-icon name="menu"></ion-icon></span>
+        <h2 class="logo" name="logo"><ion-icon name="paw"></ion-icon></h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contato</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+
+    <div class="navigation-icon-menu">
+        <a href="#">Home</a>
+        <a href="#">Sobre</a>
+        <a href="#">Serviços</a>
+        <a href="#">Contato</a>
+    </div>
+
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+
+        <div class="form-box login">
+
+            <h2>Entrar</h2>
+
+            <form action="#">
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Senha</label>
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> Lembrar senha</label>
+                    <a href="#">Esqueceu sua senha?</a>
+                </div>
+
+                <button type="submit" class="btn">Entrar</button>
+
+                <div class="login-register">
+                    <p>Não tem uma conta? <a href="#" class="register-link">Registrar</a></p>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="form-box register">
+
+            <h2>Criar conta </h2>
+
+            <form action="#">
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Nome de usuário </label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Senha</label>
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> Eu aceito os <a href="#">termos e condiçoes</a> </label>
+                </div>
+
+                <button type="submit" class="btn">Registar</button>
+
+                <div class="login-register">
+                    <p>Já tem uma conta? <a href="#" class="login-link">Conecte-se </a></p>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright © 2023 por AlanFrancis. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
